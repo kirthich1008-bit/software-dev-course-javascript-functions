@@ -94,8 +94,13 @@ function calculateEventCost(attendees, costperattendee){
     let total = attendees * costperattendee;
     if(attendees > 100){
         total *= 0.90;
+        console.log("10% discount applied!");
     }
-    return total
+        else {
+            console.log("Sorry no dicounts!");
+        }
+    
+    return total;
 }
 console.log(calculateEventCost(120, 25));
 console.log(calculateEventCost(50, 15));
