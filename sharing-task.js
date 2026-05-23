@@ -78,10 +78,11 @@ console.log(generateAttendeeBadge("Rhea", "tressurer"));
 // 1. create a function and name its function as calculate event cost and add two parameters attendees and cost per attendee.
 // 2.open function body:
      // 1. multiply attendee and costperattendee to know the cost of event :
-     // 2. use while loop to check if attendees are more than 100.
-     // 3. open while body
-     // 4. if attendees are more than 100 give them 10% discount 
-     // 5. close while loop body
+     // 2. use if loop to check if attendees are more than 100.
+     // 3. open if loop body
+     // 4. if attendees are more than 100 give them 10% discount and 
+     //     write console to display message that discount is applied. and also is no discount is applied.
+     // 5. close if loop body
      // 6. write return for total.
      // 7. close the function body.
 // 8. write console for calculating event cost enter two parameters which are Number datatype.
